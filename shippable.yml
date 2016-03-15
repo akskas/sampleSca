@@ -12,5 +12,6 @@ jdk:
 build:
 
   ci:
+    - echo -e "\e[0;31;47m Red      \e[0m 0;31m \t\e[1;31;40m Dark Red   \e[0m 1;31m"
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
