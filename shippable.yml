@@ -21,4 +21,5 @@ build:
   ci:
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
+    - npm install
     
