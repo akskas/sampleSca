@@ -19,6 +19,7 @@ build:
     pull: true  
     
   ci:
+    - sleep 30
     - java -version
     - echo $SHIPPABLE_SCALA_VERSION
     - npm install
